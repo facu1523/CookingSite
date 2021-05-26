@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inicio de sesion</title>
+	<link rel="icon" href="assets/logo.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Pattaya&display=swap" rel="stylesheet"></head>
+<body>
+	<div id="header">
+		<div class="banner">
+			<img src="assets/main.png">
+			<span>CookingSite</span>
+		</div>
+
+		<div class="nav">
+			<ul class="nav__ul">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a>Comidas</a>
+				<ul>
+					<li><a href="">Desayuno</a></li>
+					<li><a href="">Almuerzo</a></li>
+					<li><a href="">Merienda</a></li>
+					<li><a href="">Cena</a></li>
+				</ul>
+			</li>
+			<li><a>Ingredientes</a>
+				<ul>
+					<li><a href="">Vegetales</a></li>
+					<li><a href="">Condimentos</a></li>
+					<li><a href="">Carnes</a></li>
+				</ul>
+			</li>
+			<li><a>Calendario</a></li>
+			<li><a href="login.html">Iniciar sesión</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="signin">
+		<form method="post">
+			<table>
+				<tr>
+				<td><span>Usuario</span></td><td><input type="text" placeholder="Ingrese un usuario" name="pass" required=""></td><br>
+				</tr>
+				<tr>
+				<td><span>Contraseña</span></td><td><input type="password" placeholder="ingrese una contraseña" name="usr" required=""></td>
+				</tr>
+				<tr>
+				<td class="signin-long"><input type="submit" name="signin" value="Iniciar sesión"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
